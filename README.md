@@ -24,18 +24,6 @@ curl -k -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Au
 
 In the same way you can get other resorces/endpoints
 
-### Testing
-In order to run a test. Run the following command in the repo directory.
-
-    $ docker-compose run --rm backend bin/test.sh
-
-When the testing is finished you can get one of the following results:
-
-  - . test passed
-  - F your test failed
-  - E something really bad happend
-
-
 
 ### Swagger
 To use swagger open [Swagger UI](http://onelove.vagrant:5000/api/v0/doc/)
