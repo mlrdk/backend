@@ -22,7 +22,7 @@ To use the token to get list of clusters:
 curl -k -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Authorization: JWT <token>' http://onelove.vagrant:5000/api/v0/clusters
 ```
 
-In the same way you can get other resorces/endpoints
+In the same way you can get other resorces/endpoints.
 
 
 ### Swagger
